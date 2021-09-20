@@ -1,0 +1,168 @@
+.nav-links {
+     width: 50%;
+    justify-content: space-evenly;
+}
+
+.menu_active {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: 80px;
+}
+
+.btn-get-started {
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #3498db;
+}
+
+.btn-get-started:hover {
+    background: #b3d9ff;
+}
+.image-fluid {
+    height:auto;
+    max-width:100%;
+    border:none;
+    display:block;
+}
+
+.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes up-down  {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.mainHeading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputfieldText {
+ margin: 0px 10px ;
+ font-weight: 500;   
+ font-size: 18px;
+}
+
+.inputfieldSubText {
+    font-weight: 400;   
+ font-size: 16px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    /* margin: 20px 0px; */
+}
+
+.multipleFields{
+    margin-right: 5px;
+}
+
+.experienceDiv {
+    margin: 0px 0px 25px 0px;
+}
+
+.btnDiv {
+    margin: 0px 0px 20px auto;
+    position: relative;
+}
+
+.updateBtn{
+    color: #198754;
+    border-color: #198754;
+    cursor: pointer;
+}
+
+.docFiled{
+    width: 300px;
+    margin-right: 10px }
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.backbround {
+    background: #ebebe0;
+     height: auto;
+}
+
+.mainFont {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.justifySpaceBetween {
+    justify-content: space-between;
+}
+
+.textAreaAboutFIeld {
+    min-width:500px; 
+    max-width:100%;
+    min-height:50px;
+    height:100%;width:100%;
+}
+
+.acomWidth {
+    width: 500px;
+}
+
+.marginLeft {
+    margin-left: 15px !important;
+}
+
+input[type="file"] {
+    display : none;
+}
+  
+label {
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #80ff80;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.marginBottom {
+    margin: 0px 0px 20px 0px;
+}
+
+.widthHead {
+    /* width: 150px; */
+}
+
+.clickEvent {
+    background: burlywood;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+}
